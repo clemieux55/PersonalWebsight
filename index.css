@@ -4,57 +4,71 @@ body {
 }
 
 .contact-information {
-	background-color: lightblue;
-	height: 250px;
-	width: 100%;
-}
-
-.picture {
-	background-color: pink;
 	height: 250px;
 	width: 100%;
 
 }
+
 
 h1.name {
 	font-size: 30pt;
 	text-align: center;
 	border-bottom: dotted .1em black;
 	font-family: 'Denk One', sans-serif;
+	padding-bottom: 10px;
 
 }
 
 h2.junior-dev {
 	text-align: center;
-}
-
-.bottom {
-	background-color: lightgrey;
-	height: 250px;
-	width: 100%;
 
 }
 
 .information-links {
+	padding-top: 10em;
 	list-style: none;
+	margin: auto;
+
+}
+
+ul.information-links li {
+	display: inline;
+	margin:6%;
+	width: 100%;
+
 }
 
 .linked-in-button {
-	display:inline-block;
-	height:35px;
-	width:35px;
+	border-radius: 12px;
+	height:85px;
+	width:85px;
+
+}
+
+.launch-button {
+	border-radius: 12px;
+	height:85px;
+	width:85px;
 
 }
 
 .twitter-button {
-	display: inline-block;
-	height:35px;
-	width:35px;
+	border-radius: 12px;
+	height:85px;
+	width:85px;
+
 }
 
 .github-button {
-	display: inline-block;
-	height:35px;
-	width:35px;
+	border-radius: 12px;
+	height:85px;
+	width:85px;
+
+}
+
+.resume-button {
+	border-radius: 12px;
+	height:85px;
+	width:85px;
 
 }
